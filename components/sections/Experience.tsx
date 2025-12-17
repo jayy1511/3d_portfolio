@@ -36,8 +36,15 @@ export function Experience() {
                             icon={<GraduationCap className="w-4 h-4" />}
                         >
                             <p className="text-muted-foreground leading-relaxed">
-                                Specializing in Backend & Infrastructure. Currently in 3rd year.
+                                Key courses : Algorithms, Data Structures, Networking, Systems Programming, Methodologies (Agile, Scrum), Microservices, Software Security Principles, SQL and NoSQL databases.
                             </p>
+                            {edu.badges.length > 0 && (
+                                <div className="flex gap-2 mt-4">
+                                    {edu.badges.map(b => (
+                                        <Badge key={b} variant="secondary" className="text-xs bg-white/5">{b}</Badge>
+                                    ))}
+                                </div>
+                            )}
                         </TimelineItem>
                     ))}
 

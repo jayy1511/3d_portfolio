@@ -11,6 +11,7 @@ export function Skills() {
         { name: "Frontend", skills: RESUME_DATA.skills.frontend },
         { name: "Database", skills: RESUME_DATA.skills.databases },
         { name: "DevOps / Cloud", skills: [...RESUME_DATA.skills.devops, ...RESUME_DATA.skills.cloud] },
+        { name: "Concepts", skills: RESUME_DATA.skills.concepts },
     ];
 
     return (

@@ -131,7 +131,7 @@ export function About() {
                                 <Code2 className="w-4 h-4" />
                                 <span className="text-xs font-bold uppercase tracking-wider">Core Engine</span>
                             </div>
-                            <p className="text-sm text-zinc-400">Next.js, React, Node.js, Python/Flask</p>
+                            <p className="text-sm text-zinc-400">Next.js, React.js, Python, Node.js, TypeScript</p>
                         </div>
                         <div className="p-4 rounded border border-white/10 bg-white/5 hover:border-papaya/30 transition-colors">
                             <div className="flex items-center gap-2 mb-2 text-papaya">
@@ -145,7 +145,7 @@ export function About() {
                                 <User className="w-4 h-4" />
                                 <span className="text-xs font-bold uppercase tracking-wider">Team Radio</span>
                             </div>
-                            <p className="text-sm text-zinc-400">Collaborative, Adaptable, Fast Learner</p>
+                            <p className="text-sm text-zinc-400">Curious, Adaptable, Fast Learner, Creative</p>
                         </div>
                         <div className="p-4 rounded border border-white/10 bg-white/5 hover:border-papaya/30 transition-colors">
                             <div className="flex items-center gap-2 mb-2 text-papaya">

@@ -27,7 +27,7 @@ export function Contact() {
                 </h2>
 
                 <p className="text-xl text-muted-foreground max-w-xl mx-auto mb-12">
-                    Looking for a 6-month internship starting January 2026.
+                    Looking for a 6-month internship starting February 2026.
                     Ready to push for pole position.
                 </p>
 

@@ -12,7 +12,7 @@ import { DRSProvider } from "@/components/providers/DRSContext";
 // We'll trust next/font/google is set up by create-next-app
 
 export const metadata: Metadata = {
-  title: "Jay PATEL | Creative Developer",
+  title: "Jay PATEL | Fullstack Developer",
   description: "F1-inspired developer portfolio. High-performance code.",
 };
 

@@ -4,10 +4,10 @@ export const RESUME_DATA = {
   initials: "JP",
   location: "Paris, France",
   locationLink: "https://www.google.com/maps/place/Paris",
-  about: "Third-year Computer Science student at EPITA focused on backend and infrastructure. Built scalable APIs and microservices in Python and Java using Docker, RabbitMQ, Redis, and Neo4j. Curious and analytical, seeking a 6-month internship starting January 2026.",
+  about: "I am currently a third year computer science student at EPITA, all the way from India. I enjoy pushing boundaries, staying current with new tech and building products that make a difference. Outside of study, I'm interested in following the developments of science. I also play a lot of video games and watch f1.",
   summary: "I'm a Fullstack Engineer & AI Enthusiast from Paris, France. I'm fascinated by large-scale, high-impact products and I enjoy turning ideas into polished products using modern web technologies.",
-  avatarUrl: "/assets/me8.jpg", // Placeholder
-  personalWebsiteUrl: "https://portfolio-3d-f1.vercel.app", // Placeholder
+  avatarUrl: "/assets/me8.jpg",
+  personalWebsiteUrl: "https://3d-portfolio-steel-tau.vercel.app/",
   contact: {
     email: "jaypatel260660@gmail.com",
     tel: "+33 7 49 83 77 04",
@@ -28,6 +28,7 @@ export const RESUME_DATA = {
     {
       school: "EPITA - School of Engineering and Computer Science",
       degree: "Bachelors in Computer Science",
+      badges: ["On-site"],
       start: "Sept 2023",
       end: "Sept 2026",
     },
@@ -36,7 +37,7 @@ export const RESUME_DATA = {
     {
       company: "RGIS-Malakoff",
       link: "https://www.rgis.com/",
-      badges: [],
+      badges: ["On-site"],
       title: "Inventory Specialist",
       logo: "/assets/rgis-logo.png",
       start: "Sept 2024",
@@ -58,11 +59,11 @@ export const RESUME_DATA = {
     languages: ["Python", "Java", "C#", "PHP", "JavaScript", "TypeScript"],
     databases: ["MySQL", "PostgreSQL", "MongoDB", "Redis", "Neo4j"],
     backend: ["FastAPI", "Flask", "Node.js", "Spring Boot"],
-    frontend: ["React", "Next.js", "TailwindCSS"],
+    frontend: ["React.js", "Next.js", "TailwindCSS"],
     devops: ["Git", "Docker/K8s", "Maven", "CI/CD", "Shell", "RabbitMQ", "Linux"],
     cloud: ["Azure", "AWS"],
     concepts: ["Microservices", "REST API", "Event-driven systems", "Saga pattern", "Strangler Fig pattern", "AI Agents", "Prompt Engineering"],
-    soft: ["Meticulous", "Adaptable", "Resilient", "Collaborative", "Creative", "Disciplined", "Fast learner"]
+    soft: ["Meticulous", "Adaptable", "Resilient", "Curious", "Creative", "Disciplined", "Fast learner"]
   },
   languages: [
     "English - Fluent",
