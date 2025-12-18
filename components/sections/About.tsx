@@ -94,11 +94,11 @@ export function About() {
                         <div className="grid grid-cols-3 divide-x divide-white/10 border-t border-white/10 bg-white/5">
                             <div className="p-3 text-center">
                                 <div className="text-[10px] text-zinc-500 uppercase tracking-wider mb-1">XP Years</div>
-                                <div className="text-xl font-bold font-mono">02</div>
+                                <div className="text-xl font-bold font-mono">03</div>
                             </div>
                             <div className="p-3 text-center">
                                 <div className="text-[10px] text-zinc-500 uppercase tracking-wider mb-1">Projects</div>
-                                <div className="text-xl font-bold font-mono">{RESUME_DATA.projects.length}</div>
+                                <div className="text-xl font-bold font-mono">{RESUME_DATA.projects.length}+</div>
                             </div>
                             <div className="p-3 text-center">
                                 <div className="text-[10px] text-zinc-500 uppercase tracking-wider mb-1">Status</div>
@@ -113,7 +113,7 @@ export function About() {
                     <div>
                         <div className="flex items-center gap-3 mb-4">
                             <div className="h-[2px] w-12 bg-papaya" />
-                            <span className="text-papaya font-mono text-sm tracking-[0.2em] uppercase">Driver Profile</span>
+                            <span className="text-papaya font-mono text-sm tracking-[0.2em] uppercase">Profile</span>
                         </div>
                         <h3 className="text-3xl md:text-5xl font-bold uppercase leading-tight mb-6">
                             Engineering <br />

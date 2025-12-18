@@ -62,7 +62,7 @@ export const RESUME_DATA = {
     frontend: ["React.js", "Next.js", "TailwindCSS"],
     devops: ["Git", "Docker/K8s", "Maven", "CI/CD", "Shell", "RabbitMQ", "Linux"],
     cloud: ["Azure", "AWS"],
-    concepts: ["Microservices", "REST API", "Event-driven systems", "Saga pattern", "Strangler Fig pattern", "AI Agents", "Prompt Engineering"],
+    concepts: ["Microservices", "REST API", "Event-driven systems", "AI Agents", "Prompt Engineering"],
     soft: ["Meticulous", "Adaptable", "Resilient", "Curious", "Creative", "Disciplined", "Fast learner"]
   },
   languages: [
@@ -88,7 +88,7 @@ export const RESUME_DATA = {
     {
       title: "ThreatIQ_Agent",
       techStack: ["Next.js", "TypeScript", "FastAPI", "MongoDB", "Google ADK"],
-      description: "Autonomous AI agent system with multiple agents that analyzes and detects emails, URLs and messages for phishing. Assigns risk scores and generates detailed threat reports.",
+      description: "Autonomous AI agent system with multiple agents that analyzes and detects emails, URLs and messages for phishing.",
       link: {
         label: "GitHub",
         href: "https://github.com/jayy1511/ThreatIQ_Agent",

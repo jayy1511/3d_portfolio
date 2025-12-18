@@ -18,7 +18,7 @@ export function Projects() {
                     <div>
                         <span className="text-papaya font-mono text-sm tracking-widest uppercase mb-2 block">The Garage</span>
                         <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tighter">
-                            Project <span className="text-stroke text-transparent stroke-white">Specs</span>
+                            Projects <span className="text-stroke text-transparent stroke-white">Specs</span>
                         </h2>
                     </div>
 
