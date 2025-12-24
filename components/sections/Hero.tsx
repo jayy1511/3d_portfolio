@@ -57,7 +57,7 @@ export function Hero() {
                 <div className="flex justify-between items-start pointer-events-auto">
                     <div className="flex flex-col gap-2">
                         <h1 className="text-xl font-bold tracking-tighter">
-                            {RESUME_DATA.name}
+                            PORTFOLIO
                             <span className="text-papaya">.</span>
                         </h1>
                         <Badge variant="outline" className="w-fit border-papaya/50 text-papaya bg-papaya/10">
@@ -70,6 +70,14 @@ export function Hero() {
 
                 {/* Center Text */}
                 <div ref={textContainer} className="flex flex-col gap-4 max-w-4xl mt-auto mb-auto opacity-0 pointer-events-auto">
+                    {/* Developer Name Tag */}
+                    <div className="inline-flex flex-col gap-1 mb-2">
+                        <span className="text-xl md:text-5xl font-bold uppercase tracking-[0.3em] text-white/90">
+                            {RESUME_DATA.name}
+                        </span>
+                        <div className="h-[3px] w-32 bg-papaya" />
+                    </div>
+
                     <h2 className="text-5xl md:text-8xl font-black tracking-tighter uppercase leading-[0.9]">
                         <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white to-zinc-500">
                             Full Stack

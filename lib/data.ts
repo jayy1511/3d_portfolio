@@ -60,7 +60,7 @@ export const RESUME_DATA = {
     databases: ["MySQL", "PostgreSQL", "MongoDB", "Redis", "Neo4j"],
     backend: ["FastAPI", "Flask", "Node.js", "Spring Boot"],
     frontend: ["React.js", "Next.js", "TailwindCSS"],
-    devops: ["Git", "Docker/K8s", "Maven", "CI/CD", "Shell", "RabbitMQ", "Linux"],
+    devops: ["Git", "Docker", "Maven", "CI/CD", "Shell"],
     cloud: ["Azure", "AWS"],
     concepts: ["Microservices", "REST API", "Event-driven systems", "AI Agents", "Prompt Engineering"],
     soft: ["Meticulous", "Adaptable", "Resilient", "Curious", "Creative", "Disciplined", "Fast learner"]
@@ -72,16 +72,22 @@ export const RESUME_DATA = {
   ],
   certifications: [
     {
-      title: "META Full-Stack Developer Specialization",
-      link: "https://coursera.org/"
+      title: "Meta Full-Stack Developer Specialization",
+      link: "https://www.credly.com/badges/5ee970d3-e09c-4ea8-a17d-5e272e747e8d/public_url",
+      issuer: "Meta",
+      year: "2024"
     },
     {
       title: "Google Cybersecurity Specialization",
-      link: "https://coursera.org/"
+      link: "https://www.credly.com/badges/87e3b98f-0386-42fe-91ef-d403ad982285/linked_in_profile",
+      issuer: "Google",
+      year: "2024"
     },
     {
-      title: "Google AI Agents (ongoing)",
-      link: "https://coursera.org/"
+      title: "Google AI Agents Intensive",
+      link: "https://www.kaggle.com/certification/badges/jay11012005/105",
+      issuer: "Google",
+      year: "2025"
     }
   ],
   projects: [
@@ -98,7 +104,16 @@ export const RESUME_DATA = {
         href: "https://threat-iq-agent.vercel.app",
       },
       image: "/assets/ThreatIQ_Agent.png",
-      impact: "Production-ready security assistant. Coached user awareness using multi-agent workflow powered by Gemini 2.0."
+      impact: "Production-ready security assistant. Coached user awareness using multi-agent workflow powered by Gemini 2.0.",
+      keyFeatures: [
+        "Multi-agent orchestration for threat analysis",
+        "Real-time URL and content scanning",
+        "Automated phishing detection reports",
+        "Integration with Google Gemini and OAuth 2.0"
+      ],
+      challenges: "Coordinating state between multiple autonomous agents and ensuring consistent JSON output from LLMs for the frontend.",
+      solutions: "Implemented a robust agent orchestration layer with strict schema validation and retry logic.",
+      learnings: "Deepened understanding of agentic workflows, prompt engineering at scale, and asynchronous state management."
     },
     {
       title: "Solea",
@@ -109,7 +124,16 @@ export const RESUME_DATA = {
         href: "https://github.com/jayy1511/Solea",
       },
       image: "/assets/Solea.png",
-      impact: "Integrated Neo4j for recommendation graph scoring and user preference tracking."
+      impact: "Integrated Neo4j for recommendation graph scoring and user preference tracking.",
+      keyFeatures: [
+        "Graph-based recommendation engine",
+        "Interactive itinerary builder",
+        "Real-time collaboration on trips",
+        "Personalized city scoring algorithms"
+      ],
+      challenges: "Modeling complex travel relationships efficiently and querying them in real-time without latency.",
+      solutions: "Utilized Neo4j for relationship-heavy data and Redis for caching frequent user queries.",
+      learnings: "Mastered graph database concepts and hybrid database architectures (SQL/NoSQL/Graph)."
     },
     {
       title: "Voyager",
@@ -120,7 +144,16 @@ export const RESUME_DATA = {
         href: "https://github.com/jayy1511/Voyager",
       },
       image: "/assets/voyager.png",
-      impact: "Real-time tracking for users and drivers."
+      impact: "Real-time tracking for users and drivers.",
+      keyFeatures: [
+        "Real-time location tracking (WebSocket)",
+        "Driver-passenger matching algorithm",
+        "Route optimization and fare estimation",
+        "Responsive mobile-first design"
+      ],
+      challenges: "Handling real-time state synchronization between drivers and riders with low latency.",
+      solutions: "Implemented generic WebSocket handlers and optimized payload sizes for position updates.",
+      learnings: "Gained practical experience with WebSockets, geolocation APIs, and real-time system design."
     },
     {
       title: "Fit Company Microservices",
@@ -130,7 +163,16 @@ export const RESUME_DATA = {
         label: "GitHub",
         href: "https://github.com/jayy1511/fit-company",
       },
-      impact: "Implemented Strangler Fig pattern for migration. Handled complex distributed processes."
+      impact: "Implemented Strangler Fig pattern for migration. Handled complex distributed processes.",
+      keyFeatures: [
+        "Event-driven microservices architecture",
+        "Saga pattern for distributed transactions",
+        "Dockerized deployment for all services",
+        "Centralized logging and monitoring"
+      ],
+      challenges: "Ensuring data consistency across distributed services during complex transactions (e.g., booking + payment).",
+      solutions: "Adopted the Saga pattern with compensating transactions to handle failures gracefully.",
+      learnings: "Internalized distributed system patterns, eventual consistency, and message queue management."
     },
     {
       title: "EPITA Student Management",
@@ -140,7 +182,16 @@ export const RESUME_DATA = {
         label: "GitHub",
         href: "https://github.com/jayy1511/Student-Transcript-Website",
       },
-      image: "/assets/epita2.png"
+      image: "/assets/epita2.png",
+      keyFeatures: [
+        "Role-based access control (Admin/Student)",
+        "Interactive grade visualization charts",
+        "Bulk data import/export tools",
+        "Secure authentication system"
+      ],
+      challenges: "Designing a clean, intuitive UI for viewing complex academic data hierarchies.",
+      solutions: "Used modern CSS grid layouts and Chart.js for clear data presentation.",
+      learnings: "Improved skills in full-stack Python development and SQL database design."
     },
     {
       title: "Scriptoria",
@@ -149,7 +200,16 @@ export const RESUME_DATA = {
       link: {
         label: "GitHub",
         href: "https://github.com/jayy1511/Scriptoria",
-      }
+      },
+      keyFeatures: [
+        "Robust .NET 8 Web API backend",
+        "Azure App Service deployment",
+        "Type-safe React frontend",
+        "Entity Framework Core integration"
+      ],
+      challenges: "Setting up a continuous deployment pipeline to Azure for a split frontend/backend repo.",
+      solutions: "Configured GitHub Actions workflows for automated build and deploy to Azure.",
+      learnings: "Learned .NET ecosystem, Entity Framework, and Azure cloud deployment services."
     },
     {
       title: "E2EE Share",
@@ -158,7 +218,16 @@ export const RESUME_DATA = {
       link: {
         label: "GitHub",
         href: "https://github.com/jayy1511/e2ee_share",
-      }
+      },
+      keyFeatures: [
+        "Client-side AES-GCM encryption",
+        "One-time view/download links",
+        "Secure key management",
+        "Object storage with OpenStack Swift"
+      ],
+      challenges: "Implementing secure cryptography in the browser without exposing keys to the server.",
+      solutions: "Used Web Crypto API for performance and security, handling all encryption before upload.",
+      learnings: "Deep dived into browser security models, cryptography primitives, and secure API design."
     }
   ],
 } as const;

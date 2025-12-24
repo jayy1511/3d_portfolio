@@ -7,9 +7,11 @@ import { RESUME_DATA } from "@/lib/data";
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { ProjectDetail } from "./ProjectDetail";
 
 export function Projects() {
     const [hoveredProject, setHoveredProject] = useState<string | null>(null);
+    const [selectedProject, setSelectedProject] = useState<any | null>(null);
 
     return (
         <section id="projects" className="min-h-screen py-20 px-6 relative">
@@ -36,15 +38,26 @@ export function Projects() {
                             index={index}
                             isHovered={hoveredProject === project.title}
                             onHover={setHoveredProject}
+                            onClick={() => setSelectedProject(project)}
                         />
                     ))}
                 </div>
             </div>
+
+            <AnimatePresence>
+                {selectedProject && (
+                    <ProjectDetail
+                        project={selectedProject}
+                        isOpen={!!selectedProject}
+                        onClose={() => setSelectedProject(null)}
+                    />
+                )}
+            </AnimatePresence>
         </section>
     );
 }
 
-function ProjectCard({ project, index, isHovered, onHover }: { project: any, index: number, isHovered: boolean, onHover: (id: string | null) => void }) {
+function ProjectCard({ project, index, isHovered, onHover, onClick }: { project: any, index: number, isHovered: boolean, onHover: (id: string | null) => void, onClick: () => void }) {
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -58,7 +71,7 @@ function ProjectCard({ project, index, isHovered, onHover }: { project: any, ind
             )}
             onMouseEnter={() => onHover(project.title)}
             onMouseLeave={() => onHover(null)}
-            onClick={() => project.link?.href && window.open(project.link.href, "_blank")}
+            onClick={onClick}
         >
             {/* Background Overlay */}
             <div className="absolute inset-0 z-0">
