@@ -1,66 +1,103 @@
 # F1-Inspired 3D Portfolio
 
-A high-performance, motorsport-themed developer portfolio built with Next.js 15, React Three Fiber, and TailwindCSS.
+A high-performance, immersive developer portfolio engineered with Next.js 15, React Three Fiber, and TypeScript. This project treats the user interface as a high-speed telemetry dashboard, blending 3D interactivity with modern web architectural patterns.
 
-## 🏁 Quick Start
+## Technological Architecture
 
-1.  **Install Dependencies**
-    ```bash
-    npm install
-    ```
+This application is built on a modern, type-safe stack designed for performance, scalability, and developer experience.
 
-2.  **Run Development Server**
-    ```bash
-    npm run dev
-    ```
-    Open [http://localhost:3000](http://localhost:3000) to view the pit lane.
+### Core Framework
+- **Next.js 15 (App Router)**: Utilizing React Server Components (RSC) for optimal initial load performance and SEO.
+- **TypeScript**: Strict type adherence for robust code quality and maintainability.
+- **TailwindCSS**: Utility-first styling with a custom configuration for the "Papaya" and "Carbon" design system.
 
-## 🏎️ Features
+### Interactive & 3D Engine
+- **React Three Fiber (R3F)**: Declarative bridge for Three.js, managing the Hero scene's 3D lifecycle.
+- **Drei**: Abstractions for complex 3D implementations (Environment, Float, Sparkles).
+- **GSAP (GreenSock)**: High-performance animation engine for complex timelines and DOM transitions.
+- **Framer Motion**: Gesture-based animations for UI components (modals, cards, hover states).
 
--   **3D Hero Scene**: Interactive "Energy Orb" and starfield (React Three Fiber).
--   **DRS Mode**: Performance toggle that boosts particle effects and animation speed.
--   **Telemetry UI**: "Lap Timer", "System Check" ignition sequence, and data-driven layouts.
--   **Garage Grid**: Bento-style project showcase.
--   **Command Palette**: `Ctrl+K` navigation.
--   **Smooth Scroll**: Lenis integration for "gliding" feel.
+### State & Performance
+- **Lenis**: Smooth scrolling library for a premium, inertial scroll experience.
+- **Zustand / Context API**: Global state management for system-wide toggles like the DRS (Drag Reduction System) mode.
+- **Suspense**: Streaming and loading state management for 3D assets.
 
-## 📂 Project Structure
+## Key Features
 
--   `app/`: Next.js App Router pages and global layouts.
-    -   `page.tsx`: Main entry point assembling all sections.
-    -   `globals.css`: Tailwind 4 theme configuration (Papaya/Carbon colors).
--   `components/`:
-    -   `3d/`: R3F scenes (`HeroScene.tsx`).
-    -   `sections/`: Major page sections (`Hero`, `About`, `Projects`, etc.).
-    -   `ui/`: Reusable widgets (`LapTimer`, `Ignition`, `Badge`).
--   `lib/`: 
-    -   `data.ts`: **Source of Truth** for all content (CV data).
+### 3D Hero Environment
+Centers around an interactive 3D model integrated into a dynamic environment. The scene responds to user input and application state (DRS Mode), altering lighting intensity and particle behavior in real-time.
 
-## 🛠️ How to Edit Content
+### Drag Reduction System (DRS)
+A global performance toggle that simulates the F1 mechanic. activating "DRS" boosts animation speeds, intensifies visual effects (chromatic aberration, motion blur), and transforms the static 3D environment into a high-energy state.
 
-**Everything is controlled by `lib/data.ts`.**
+### Project Telemetry System
+Instead of simple external links, projects utilize a detailed "Pit Stop" modal system. This overlay provides a deep dive into each project's engineering, displaying:
+- Technical Architecture (Tech Stack)
+- Core Systems & Features
+- Engineering Challenges & Solutions
+- Performance Metrics
 
-1.  **Update Resume Data**: Open `lib/data.ts` and modify the `RESUME_DATA` object.
-2.  **Change Images**:
-    -   Place your images in `public/assets/`.
-    -   Update paths in `RESUME_DATA` (e.g., `avatarUrl`, `project.image`).
-3.  **Adjust Colors**:
-    -   Open `app/globals.css`.
-    -   Modify `--papaya` or `--carbon` Oklch values to change the team livery.
+### Certifications Module
+A dedicated section for displaying professional credentials (Meta, Google) styled as high-grade motorsport licenses. Fully responsive layout ensures legibility across all viewport sizes.
 
-## 🚀 Deployment (Vercel)
+### Command Menu interface
+Integrated keyboard-driven navigation accessible via `Ctrl+K`. This system provides instant access to all sections of the portfolio and external links, mimicking IDE command palettes.
 
-1.  Push this code to GitHub.
-2.  Import the project in Vercel.
-3.  **Build Settings**:
-    -   Framework Preset: `Next.js`
-    -   Build Command: `next build` (default)
-    -   Install Command: `npm install` (default)
-4.  **Deploy**: Hit "Deploy".
+## Project Structure
 
-> **Note**: The 3D scene uses `MeshDistortMaterial`. On very old devices, this might be slow, but `DRSProvider` handles performance toggling.
+The codebase follows a modular architecture:
 
-## 📝 TODOs for Launch
-- [ ] Replace placeholder images in `public/assets/`.
-- [ ] Add real links to all projects in `lib/data.ts`.
-- [ ] Verify SEO metadata in `app/layout.tsx`.
+- **app/**: Next.js App Router structure. Contains page entries and global layouts.
+- **components/3d/**: Three.js scenes and R3F components.
+- **components/sections/**: Major UI sections (Hero, About, Projects, Certifications).
+- **components/ui/**: Reusable, atomic UI components (Buttons, Badges, Modals).
+- **lib/data.ts**: Centralized data source. All content (projects, experience, bio) is managed here for easy updates without code changes.
+
+## Getting Started
+
+### Prerequisites
+- Node.js 18.17 or later
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jayy1511/3d_portfolio.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Access the application at `http://localhost:3000`.
+
+## Configuration
+
+### Content Management
+All personal data, project details, and text content are decoupled from the UI logic. Modify `lib/data.ts` to update:
+- Personal Profile (Name, Role, Location)
+- Work Experience & History
+- Project Case Studies (Titles, tech stacks, detailed descriptions)
+- Social Links & Contact Info
+
+### Customization
+The design system defaults to a McLaren-inspired "Papaya" orange. To adapt this to another brand identity, navigate to `app/globals.css` and adjust the root CSS variables (`--papaya`, `--carbon`) to your preferred Oklch color values.
+
+## Deployment
+
+This project is optimized for deployment on Vercel.
+
+1. Push your changes to a GitHub repository.
+2. Import the repository into Vercel.
+3. The default Next.js build settings (`next build`) are pre-configured.
+4. Deploy.
+
+---
+*Engineered for speed and precision.*
