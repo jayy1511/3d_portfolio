@@ -61,7 +61,7 @@ export function Hero() {
                             <span className="text-papaya">.</span>
                         </h1>
                         <Badge variant="outline" className="w-fit border-papaya/50 text-papaya bg-papaya/10">
-                            AVAILABLE FROM FEB 2026
+                            OPEN TO OPPORTUNITIES
                         </Badge>
                     </div>
 

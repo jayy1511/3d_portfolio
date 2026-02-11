@@ -4,7 +4,7 @@ export const RESUME_DATA = {
   initials: "JP",
   location: "Paris, France",
   locationLink: "https://www.google.com/maps/place/Paris",
-  about: "I am currently a third year computer science student at EPITA, all the way from India. I enjoy pushing boundaries, staying current with new tech and building products that make a difference. Outside of study, I'm interested in following the developments of science. I also play a lot of video games and watch f1.",
+  about: "I am currently a third year computer science student at EPITA and Software Engineering Intern at Dassault Systèmes, all the way from India. I enjoy pushing boundaries, staying current with new tech and building products that make a difference. Outside of study, I'm interested in following the developments of science. I also play a lot of video games and watch f1.",
   summary: "I'm a Fullstack Engineer & AI Enthusiast from Paris, France. I'm fascinated by large-scale, high-impact products and I enjoy turning ideas into polished products using modern web technologies.",
   avatarUrl: "/assets/me8.jpg",
   personalWebsiteUrl: "https://3d-portfolio-steel-tau.vercel.app/",
@@ -34,6 +34,16 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+    {
+      company: "Dassault Systèmes",
+      link: "https://www.3ds.com/",
+      badges: ["On-site", "Python", "TypeScript", "FastAPI", "Docker", "React"],
+      title: "Software Engineer Intern",
+      logo: "/assets/dassault-logo.png",
+      start: "March 2026",
+      end: "Sept 2026",
+      description: "Developing algorithms and automation scripts for a node within a large-scale medical platform in the Life Sciences department. Building and integrating computational pipelines that run on the company's proprietary engine, contributing to healthcare innovation at enterprise scale."
+    },
     {
       company: "RGIS-Malakoff",
       link: "https://www.rgis.com/",

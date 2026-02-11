@@ -27,8 +27,7 @@ export function Contact() {
                 </h2>
 
                 <p className="text-xl text-muted-foreground max-w-xl mx-auto mb-12">
-                    Looking for a 6-month internship starting February 2026.
-                    Ready to push for pole position.
+                    SWE Intern at Dassault Systèmes. Always open to connecting and collaborating.
                 </p>
 
                 <div className="flex flex-col md:flex-row items-center justify-center gap-6">
