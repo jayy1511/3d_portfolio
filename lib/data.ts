@@ -42,7 +42,13 @@ export const RESUME_DATA = {
       logo: "/assets/dassault-logo.png",
       start: "March 2026",
       end: "Sept 2026",
-      description: "Developing algorithms and automation scripts for a node within a large-scale medical platform in the Life Sciences department. Building and integrating computational pipelines that run on the company's proprietary engine, contributing to healthcare innovation at enterprise scale."
+      description: `
+• Working in the Life Sciences R&D team on a node-based workflow platform for computational pipelines  
+• Contributing across backend and frontend, focusing on secure execution of user-defined scripts in containerized environments  
+• Designing and building an end-to-end MVP (execution logic, workflows, integration readiness)  
+• Preparing integration into a larger internal ecosystem related to healthcare digital twin initiatives (e.g., MEDITWIN)  
+• Exploring AI-assisted workflows and automation for future improvements.
+`
     },
     {
       company: "RGIS-Malakoff",
