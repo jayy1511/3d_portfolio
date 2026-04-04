@@ -5,7 +5,7 @@ export const RESUME_DATA = {
   location: "Paris, France",
   locationLink: "https://www.google.com/maps/place/Paris",
   about: "I am currently a third year computer science student at EPITA and Software Engineering Intern at Dassault Systèmes, all the way from India. I enjoy pushing boundaries, staying current with new tech and building products that make a difference. Outside of study, I'm interested in following the developments of science. I also play a lot of video games and watch f1.",
-  summary: "I'm a Fullstack Engineer & AI Enthusiast from Paris, France. I'm fascinated by large-scale, high-impact products and I enjoy turning ideas into polished products using modern web technologies.",
+  summary: "I'm a Software Engineer & AI Enthusiast from Paris, France. I'm fascinated by large-scale, high-impact products and I enjoy turning ideas into polished products using modern web technologies.",
   avatarUrl: "/assets/me8.jpg",
   personalWebsiteUrl: "https://3d-portfolio-steel-tau.vercel.app/",
   contact: {
@@ -76,7 +76,7 @@ export const RESUME_DATA = {
     databases: ["MySQL", "PostgreSQL", "MongoDB", "Redis", "Neo4j"],
     backend: ["FastAPI", "Flask", "Node.js", "Spring Boot"],
     frontend: ["React.js", "Next.js", "TailwindCSS"],
-    devops: ["Git", "Docker", "Maven", "CI/CD", "Shell"],
+    devops: ["Git", "Docker/Kubernetes", "Maven", "CI/CD", "Shell"],
     cloud: ["Azure", "AWS"],
     concepts: ["Microservices", "REST API", "Event-driven systems", "AI Agents", "Prompt Engineering"],
     soft: ["Meticulous", "Adaptable", "Resilient", "Curious", "Creative", "Disciplined", "Fast learner"]
@@ -104,6 +104,12 @@ export const RESUME_DATA = {
       link: "https://www.kaggle.com/certification/badges/jay11012005/105",
       issuer: "Google",
       year: "2025"
+    },
+    {
+      title: "Microsoft AI Skills",
+      link: "https://www.credly.com/badges/9d86a751-64ff-48b3-bb46-73c8686e4565",
+      issuer: "Microsoft",
+      year: "2026"
     }
   ],
   projects: [

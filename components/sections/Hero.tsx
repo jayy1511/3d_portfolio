@@ -80,7 +80,7 @@ export function Hero() {
 
                     <h2 className="text-5xl md:text-8xl font-black tracking-tighter uppercase leading-[0.9]">
                         <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white to-zinc-500">
-                            Full Stack
+                            Software
                         </span>
                         <span className="block text-transparent bg-clip-text bg-gradient-to-r from-zinc-500 to-white">
                             Engineer
