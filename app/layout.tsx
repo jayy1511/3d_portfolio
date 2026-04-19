@@ -11,6 +11,8 @@ import { DRSProvider } from "@/components/providers/DRSContext";
 // If Geist fonts are available, use them. Otherwise standard sans.
 // We'll trust next/font/google is set up by create-next-app
 
+import { Analytics } from "@vercel/analytics/react";
+
 export const metadata: Metadata = {
   title: "Jay PATEL | Fullstack Developer",
   description: "F1-inspired developer portfolio. High-performance code.",
@@ -44,6 +46,7 @@ export default function RootLayout({
             </div>
           </SmoothScroll>
         </DRSProvider>
+        <Analytics />
       </body>
     </html>
   );
