@@ -20,6 +20,7 @@ export function ProjectDetail({ project, isOpen, onClose }: ProjectDetailProps) 
         <div className={cn("fixed inset-0 z-50 flex items-center justify-center p-4 md:p-8", !isOpen && "pointer-events-none")}>
             {/* Backdrop */}
             <motion.div
+                data-lenis-prevent="true"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: isOpen ? 1 : 0 }}
                 exit={{ opacity: 0 }}
@@ -29,6 +30,7 @@ export function ProjectDetail({ project, isOpen, onClose }: ProjectDetailProps) 
 
             {/* Modal Content */}
             <motion.div
+                data-lenis-prevent="true"
                 initial={{ opacity: 0, scale: 0.95, y: 20 }}
                 animate={{ opacity: isOpen ? 1 : 0, scale: isOpen ? 1 : 0.95, y: isOpen ? 0 : 20 }}
                 exit={{ opacity: 0, scale: 0.95, y: 20 }}

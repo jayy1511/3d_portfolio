@@ -138,7 +138,7 @@ export const RESUME_DATA = {
       learnings: "Deepened understanding of agentic workflows, prompt engineering at scale, and asynchronous state management."
     },
     {
-      title: "Fit Company Microservices",
+      title: "Fit Company",
       techStack: ["Python", "Flask", "Docker", "RabbitMQ", "MongoDB"],
       description: "Scalable backend fitness platform evolved from monolith to microservices using event-driven workflows and Saga pattern.",
       link: {
