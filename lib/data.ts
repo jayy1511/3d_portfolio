@@ -119,7 +119,7 @@ export const RESUME_DATA = {
       description: "Multi-agent AI system for phishing detection across emails, URLs, and messages using LLM-based reasoning, structured agent workflows, and automated threat reports.",
       link: {
         label: "GitHub",
-        href: "https://github.com/jayy1511/ThreatIQ_Agent",
+        href: "https://github.com/jayy1511/ThreatIQ",
       },
       demo: {
         label: "Demo",
