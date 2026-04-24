@@ -6,11 +6,11 @@ import { motion } from "framer-motion";
 
 export function Skills() {
     const categories = [
-        { name: "Languages", skills: RESUME_DATA.skills.languages },
+        { name: "AI / GenAI", skills: RESUME_DATA.skills.ai },
         { name: "Backend", skills: RESUME_DATA.skills.backend },
+        { name: "Systems / Cloud", skills: RESUME_DATA.skills.systems },
+        { name: "Data", skills: RESUME_DATA.skills.data },
         { name: "Frontend", skills: RESUME_DATA.skills.frontend },
-        { name: "Database", skills: RESUME_DATA.skills.databases },
-        { name: "DevOps / Cloud", skills: [...RESUME_DATA.skills.devops, ...RESUME_DATA.skills.cloud] },
         { name: "Concepts", skills: RESUME_DATA.skills.concepts },
     ];
 

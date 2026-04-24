@@ -27,7 +27,7 @@ export function Contact() {
                 </h2>
 
                 <p className="text-xl text-muted-foreground max-w-xl mx-auto mb-12">
-                    SWE Intern at Dassault Systèmes. Always open to connecting and collaborating.
+                    AI & Software Engineering Intern at Dassault Systèmes R&D. Open to AI engineering, GenAI, and backend systems opportunities.
                 </p>
 
                 <div className="flex flex-col md:flex-row items-center justify-center gap-6">

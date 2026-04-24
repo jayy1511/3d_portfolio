@@ -4,8 +4,8 @@ export const RESUME_DATA = {
   initials: "JP",
   location: "Paris, France",
   locationLink: "https://www.google.com/maps/place/Paris",
-  about: "I am currently a third year computer science student at EPITA and Software Engineering Intern at Dassault Systèmes, all the way from India. I enjoy pushing boundaries, staying current with new tech and building products that make a difference. Outside of study, I'm interested in following the developments of science. I also play a lot of video games and watch f1.",
-  summary: "I'm a Software Engineer & AI Enthusiast from Paris, France. I'm fascinated by large-scale, high-impact products and I enjoy turning ideas into polished products using modern web technologies.",
+  about: "I’m a third-year Computer Science student at EPITA and Software Engineering & AI Intern at Dassault Systèmes R&D in Paris. My work focuses on backend systems, secure execution workflows, containerized environments, and AI-assisted automation. I’m especially interested in LLM agents, RAG systems, multi-agent workflows, and applying AI to complex industrial software.",
+  summary: "AI Engineer focused on LLM agents, backend systems, and production-ready AI workflows. Currently working in R&D at Dassault Systèmes on secure workflow automation, containerized execution, and AI-assisted systems.",
   avatarUrl: "/assets/me8.jpg",
   personalWebsiteUrl: "https://3d-portfolio-steel-tau.vercel.app/",
   contact: {
@@ -37,17 +37,18 @@ export const RESUME_DATA = {
     {
       company: "Dassault Systèmes",
       link: "https://www.3ds.com/",
-      badges: ["On-site", "Python", "TypeScript", "FastAPI", "Docker", "React"],
-      title: "Software Engineer Intern",
+      badges: ["R&D", "Python", "FastAPI", "Docker", "Kubernetes", "WebSocket", "LLM", "LangChain"],
+      title: "Software Engineering & AI Intern",
       logo: "/assets/dassault-logo.png",
       start: "March 2026",
       end: "Sept 2026",
       description: `
-• Working in the Life Sciences R&D team on a node-based workflow platform for computational pipelines  
-• Contributing across backend and frontend, focusing on secure execution of user-defined scripts in containerized environments  
-• Designing and building an end-to-end MVP (execution logic, workflows, integration readiness)  
-• Preparing integration into a larger internal ecosystem related to healthcare digital twin initiatives (e.g., MEDITWIN)  
-• Exploring AI-assisted workflows and automation for future improvements.
+• Working in the Life Sciences R&D team on a node-based workflow platform for scientific and computational pipelines.
+• Designed and developed a secure Script Node for isolated execution of user-defined Python scripts in Docker containers.
+• Built backend services with FastAPI and real-time execution feedback via WebSocket.
+• Designed execution orchestration logic including validation, job registry, watchdog monitoring, and log streaming.
+• Prepared integration roadmap for Kubernetes-based execution and AI-assisted workflow automation using LLMs and LangChain.
+• Contributing to healthcare digital twin initiatives such as MEDITWIN.
 `
     },
     {
@@ -72,13 +73,12 @@ export const RESUME_DATA = {
     }
   ],
   skills: {
-    languages: ["Python", "Java", "C#", "PHP", "JavaScript", "TypeScript"],
-    databases: ["MySQL", "PostgreSQL", "MongoDB", "Redis", "Neo4j"],
-    backend: ["FastAPI", "Flask", "Node.js", "Spring Boot"],
-    frontend: ["React.js", "Next.js", "TailwindCSS"],
-    devops: ["Git", "Docker/Kubernetes", "Maven", "CI/CD", "Shell"],
-    cloud: ["Azure", "AWS"],
-    concepts: ["Microservices", "REST API", "Event-driven systems", "AI Agents", "Prompt Engineering"],
+    ai: ["LLMs", "RAG", "LangChain", "LangGraph", "AI Agents", "Prompt Engineering", "Google ADK", "Scikit-learn"],
+    backend: ["Python", "FastAPI", "Flask", "Node.js", "REST APIs", "WebSocket"],
+    systems: ["Docker", "Kubernetes", "CI/CD", "Git", "Linux", "Azure", "AWS"],
+    data: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Neo4j", "Pandas", "NumPy"],
+    frontend: ["React.js", "Next.js", "TypeScript", "TailwindCSS"],
+    concepts: ["Multi-agent systems", "Microservices", "Event-driven architecture", "Secure execution", "Distributed systems"],
     soft: ["Meticulous", "Adaptable", "Resilient", "Curious", "Creative", "Disciplined", "Fast learner"]
   },
   languages: [
@@ -87,18 +87,6 @@ export const RESUME_DATA = {
     "Hindi - Native"
   ],
   certifications: [
-    {
-      title: "Meta Full-Stack Developer Specialization",
-      link: "https://www.credly.com/badges/5ee970d3-e09c-4ea8-a17d-5e272e747e8d/public_url",
-      issuer: "Meta",
-      year: "2024"
-    },
-    {
-      title: "Google Cybersecurity Specialization",
-      link: "https://www.credly.com/badges/87e3b98f-0386-42fe-91ef-d403ad982285/linked_in_profile",
-      issuer: "Google",
-      year: "2024"
-    },
     {
       title: "Google AI Agents Intensive",
       link: "https://www.kaggle.com/certification/badges/jay11012005/105",
@@ -110,13 +98,25 @@ export const RESUME_DATA = {
       link: "https://www.credly.com/badges/9d86a751-64ff-48b3-bb46-73c8686e4565",
       issuer: "Microsoft",
       year: "2026"
+    },
+    {
+      title: "Google Cybersecurity Specialization",
+      link: "https://www.credly.com/badges/87e3b98f-0386-42fe-91ef-d403ad982285/linked_in_profile",
+      issuer: "Google",
+      year: "2024"
+    },
+    {
+      title: "Meta Full-Stack Developer Specialization",
+      link: "https://www.credly.com/badges/5ee970d3-e09c-4ea8-a17d-5e272e747e8d/public_url",
+      issuer: "Meta",
+      year: "2024"
     }
   ],
   projects: [
     {
-      title: "ThreatIQ_Agent",
-      techStack: ["Next.js", "TypeScript", "FastAPI", "MongoDB", "Google ADK"],
-      description: "Autonomous AI agent system with multiple agents that analyzes and detects emails, URLs and messages for phishing.",
+      title: "ThreatIQ - Multi-Agent Phishing Detection",
+      techStack: ["Python", "FastAPI", "Next.js", "TypeScript", "MongoDB", "Google ADK", "LLM Agents"],
+      description: "Multi-agent AI system for phishing detection across emails, URLs, and messages using LLM-based reasoning, structured agent workflows, and automated threat reports.",
       link: {
         label: "GitHub",
         href: "https://github.com/jayy1511/ThreatIQ_Agent",
@@ -126,7 +126,7 @@ export const RESUME_DATA = {
         href: "https://threat-iq-agent.vercel.app",
       },
       image: "/assets/ThreatIQ_Agent.png",
-      impact: "Production-ready security assistant. Coached user awareness using multi-agent workflow powered by Gemini 2.0.",
+      impact: "Designed a production-style AI security assistant with multi-agent orchestration, structured outputs, OAuth integration, and user-facing threat explanations.",
       keyFeatures: [
         "Multi-agent orchestration for threat analysis",
         "Real-time URL and content scanning",
@@ -136,6 +136,43 @@ export const RESUME_DATA = {
       challenges: "Coordinating state between multiple autonomous agents and ensuring consistent JSON output from LLMs for the frontend.",
       solutions: "Implemented a robust agent orchestration layer with strict schema validation and retry logic.",
       learnings: "Deepened understanding of agentic workflows, prompt engineering at scale, and asynchronous state management."
+    },
+    {
+      title: "Fit Company Microservices",
+      techStack: ["Python", "Flask", "Docker", "RabbitMQ", "MongoDB"],
+      description: "Scalable backend fitness platform evolved from monolith to microservices using event-driven workflows and Saga pattern.",
+      link: {
+        label: "GitHub",
+        href: "https://github.com/jayy1511/fit-company",
+      },
+      impact: "Implemented Strangler Fig pattern for migration. Handled complex distributed processes.",
+      keyFeatures: [
+        "Event-driven microservices architecture",
+        "Saga pattern for distributed transactions",
+        "Dockerized deployment for all services",
+        "Centralized logging and monitoring"
+      ],
+      challenges: "Ensuring data consistency across distributed services during complex transactions (e.g., booking + payment).",
+      solutions: "Adopted the Saga pattern with compensating transactions to handle failures gracefully.",
+      learnings: "Internalized distributed system patterns, eventual consistency, and message queue management."
+    },
+    {
+      title: "E2EE Share",
+      techStack: ["React.js", "Python (Flask)", "PostgreSQL", "Redis", "OpenStack Swift"],
+      description: "Secure end-to-end encrypted file-sharing platform with client-side encryption and one-time links.",
+      link: {
+        label: "GitHub",
+        href: "https://github.com/jayy1511/e2ee_share",
+      },
+      keyFeatures: [
+        "Client-side AES-GCM encryption",
+        "One-time view/download links",
+        "Secure key management",
+        "Object storage with OpenStack Swift"
+      ],
+      challenges: "Implementing secure cryptography in the browser without exposing keys to the server.",
+      solutions: "Used Web Crypto API for performance and security, handling all encryption before upload.",
+      learnings: "Deep dived into browser security models, cryptography primitives, and secure API design."
     },
     {
       title: "Solea",
@@ -158,6 +195,24 @@ export const RESUME_DATA = {
       learnings: "Mastered graph database concepts and hybrid database architectures (SQL/NoSQL/Graph)."
     },
     {
+      title: "Scriptoria",
+      techStack: ["C#", "SQL Server", "Azure", "React.js", "TailwindCSS"],
+      description: "Full-stack CRUD platform featuring a .NET 8 Web API deployed on Azure.",
+      link: {
+        label: "GitHub",
+        href: "https://github.com/jayy1511/Scriptoria",
+      },
+      keyFeatures: [
+        "Robust .NET 8 Web API backend",
+        "Azure App Service deployment",
+        "Type-safe React frontend",
+        "Entity Framework Core integration"
+      ],
+      challenges: "Setting up a continuous deployment pipeline to Azure for a split frontend/backend repo.",
+      solutions: "Configured GitHub Actions workflows for automated build and deploy to Azure.",
+      learnings: "Learned .NET ecosystem, Entity Framework, and Azure cloud deployment services."
+    },
+    {
       title: "Voyager",
       techStack: ["Node.js", "React.js", "TailwindCSS"],
       description: "Modern Uber-style ride-booking app offering seamless ride requests and real-time tracking.",
@@ -178,25 +233,6 @@ export const RESUME_DATA = {
       learnings: "Gained practical experience with WebSockets, geolocation APIs, and real-time system design."
     },
     {
-      title: "Fit Company Microservices",
-      techStack: ["Python", "Flask", "Docker", "RabbitMQ", "MongoDB"],
-      description: "Scalable backend fitness platform evolved from monolith to microservices using event-driven workflows and Saga pattern.",
-      link: {
-        label: "GitHub",
-        href: "https://github.com/jayy1511/fit-company",
-      },
-      impact: "Implemented Strangler Fig pattern for migration. Handled complex distributed processes.",
-      keyFeatures: [
-        "Event-driven microservices architecture",
-        "Saga pattern for distributed transactions",
-        "Dockerized deployment for all services",
-        "Centralized logging and monitoring"
-      ],
-      challenges: "Ensuring data consistency across distributed services during complex transactions (e.g., booking + payment).",
-      solutions: "Adopted the Saga pattern with compensating transactions to handle failures gracefully.",
-      learnings: "Internalized distributed system patterns, eventual consistency, and message queue management."
-    },
-    {
       title: "EPITA Student Management",
       techStack: ["Python (Flask)", "JavaScript", "HTML", "CSS", "SQL"],
       description: "Dynamic transcript portal displaying students, courses, and grades with data visualization.",
@@ -214,42 +250,6 @@ export const RESUME_DATA = {
       challenges: "Designing a clean, intuitive UI for viewing complex academic data hierarchies.",
       solutions: "Used modern CSS grid layouts and Chart.js for clear data presentation.",
       learnings: "Improved skills in full-stack Python development and SQL database design."
-    },
-    {
-      title: "Scriptoria",
-      techStack: ["C#", "SQL Server", "Azure", "React.js", "TailwindCSS"],
-      description: "Full-stack CRUD platform featuring a .NET 8 Web API deployed on Azure.",
-      link: {
-        label: "GitHub",
-        href: "https://github.com/jayy1511/Scriptoria",
-      },
-      keyFeatures: [
-        "Robust .NET 8 Web API backend",
-        "Azure App Service deployment",
-        "Type-safe React frontend",
-        "Entity Framework Core integration"
-      ],
-      challenges: "Setting up a continuous deployment pipeline to Azure for a split frontend/backend repo.",
-      solutions: "Configured GitHub Actions workflows for automated build and deploy to Azure.",
-      learnings: "Learned .NET ecosystem, Entity Framework, and Azure cloud deployment services."
-    },
-    {
-      title: "E2EE Share",
-      techStack: ["React.js", "Python (Flask)", "PostgreSQL", "Redis", "OpenStack Swift"],
-      description: "Secure end-to-end encrypted file-sharing platform with client-side encryption and one-time links.",
-      link: {
-        label: "GitHub",
-        href: "https://github.com/jayy1511/e2ee_share",
-      },
-      keyFeatures: [
-        "Client-side AES-GCM encryption",
-        "One-time view/download links",
-        "Secure key management",
-        "Object storage with OpenStack Swift"
-      ],
-      challenges: "Implementing secure cryptography in the browser without exposing keys to the server.",
-      solutions: "Used Web Crypto API for performance and security, handling all encryption before upload.",
-      learnings: "Deep dived into browser security models, cryptography primitives, and secure API design."
     }
   ],
 } as const;

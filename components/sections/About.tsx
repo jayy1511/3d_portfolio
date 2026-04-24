@@ -116,8 +116,8 @@ export function About() {
                             <span className="text-papaya font-mono text-sm tracking-[0.2em] uppercase">Profile</span>
                         </div>
                         <h3 className="text-3xl md:text-5xl font-bold uppercase leading-tight mb-6">
-                            Engineering <br />
-                            <span className="text-zinc-500">Precision & Speed.</span>
+                            BUILDING AI SYSTEMS <br />
+                            <span className="text-zinc-500">THAT SHIP.</span>
                         </h3>
                         <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
                             {RESUME_DATA.about}
@@ -126,33 +126,33 @@ export function About() {
 
                     {/* Technical Chips Grid */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <div className="p-4 rounded border border-white/10 bg-white/5 hover:border-papaya/30 transition-colors">
+                        <div className="p-4 rounded border border-white/10 bg-white/5 hover:border-papaya/30 transition-colors flex flex-col justify-between">
                             <div className="flex items-center gap-2 mb-2 text-papaya">
                                 <Code2 className="w-4 h-4" />
-                                <span className="text-xs font-bold uppercase tracking-wider">Core Engine</span>
+                                <span className="text-xs font-bold uppercase tracking-wider">LLM Agents</span>
                             </div>
-                            <p className="text-sm text-zinc-400">Next.js, React.js, Python, Node.js, TypeScript</p>
+                            <p className="text-sm text-zinc-400">LangChain, LangGraph, Google ADK, ReAct-style workflows</p>
                         </div>
-                        <div className="p-4 rounded border border-white/10 bg-white/5 hover:border-papaya/30 transition-colors">
+                        <div className="p-4 rounded border border-white/10 bg-white/5 hover:border-papaya/30 transition-colors flex flex-col justify-between">
                             <div className="flex items-center gap-2 mb-2 text-papaya">
                                 <Database className="w-4 h-4" />
-                                <span className="text-xs font-bold uppercase tracking-wider">Data Systems</span>
+                                <span className="text-xs font-bold uppercase tracking-wider">Backend AI Systems</span>
                             </div>
-                            <p className="text-sm text-zinc-400">PostgreSQL, MongoDB, Redis, Neo4j</p>
+                            <p className="text-sm text-zinc-400">FastAPI, REST APIs, WebSocket, Dockerized execution</p>
                         </div>
-                        <div className="p-4 rounded border border-white/10 bg-white/5 hover:border-papaya/30 transition-colors">
+                        <div className="p-4 rounded border border-white/10 bg-white/5 hover:border-papaya/30 transition-colors flex flex-col justify-between">
                             <div className="flex items-center gap-2 mb-2 text-papaya">
                                 <User className="w-4 h-4" />
-                                <span className="text-xs font-bold uppercase tracking-wider">Team Radio</span>
+                                <span className="text-xs font-bold uppercase tracking-wider">RAG & Data Pipelines</span>
                             </div>
-                            <p className="text-sm text-zinc-400">Curious, Adaptable, Fast Learner, Creative</p>
+                            <p className="text-sm text-zinc-400">Document processing, embeddings, retrieval, structured outputs</p>
                         </div>
-                        <div className="p-4 rounded border border-white/10 bg-white/5 hover:border-papaya/30 transition-colors">
+                        <div className="p-4 rounded border border-white/10 bg-white/5 hover:border-papaya/30 transition-colors flex flex-col justify-between">
                             <div className="flex items-center gap-2 mb-2 text-papaya">
                                 <MapPin className="w-4 h-4" />
-                                <span className="text-xs font-bold uppercase tracking-wider">Base</span>
+                                <span className="text-xs font-bold uppercase tracking-wider">Industrial AI</span>
                             </div>
-                            <p className="text-sm text-zinc-400">{RESUME_DATA.location}</p>
+                            <p className="text-sm text-zinc-400">Applying AI to engineering and workflow systems (e.g., Dassault Systèmes)</p>
                         </div>
                     </div>
 
@@ -164,7 +164,7 @@ export function About() {
                         </div>
                         <div className="text-right">
                             <span className="text-[10px] text-zinc-600 uppercase block mb-1">Availability</span>
-                            <span className="text-papaya font-bold">OPEN TO OPPORTUNITIES</span>
+                            <span className="text-papaya font-bold">OPEN TO AI APPRENTICESHIP OPPORTUNITIES</span>
                         </div>
                     </div>
                 </div>

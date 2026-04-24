@@ -61,7 +61,7 @@ export function Hero() {
                             <span className="text-papaya">.</span>
                         </h1>
                         <Badge variant="outline" className="w-fit border-papaya/50 text-papaya bg-papaya/10">
-                            OPEN TO OPPORTUNITIES
+                            SEEKING AI APPRENTICESHIP — OCT 2026
                         </Badge>
                     </div>
 
@@ -80,7 +80,7 @@ export function Hero() {
 
                     <h2 className="text-5xl md:text-8xl font-black tracking-tighter uppercase leading-[0.9]">
                         <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white to-zinc-500">
-                            Software
+                            AI
                         </span>
                         <span className="block text-transparent bg-clip-text bg-gradient-to-r from-zinc-500 to-white">
                             Engineer
