@@ -14,8 +14,8 @@ import { DRSProvider } from "@/components/providers/DRSContext";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
-  title: "Jay PATEL | Fullstack Developer",
-  description: "F1-inspired developer portfolio. High-performance code.",
+  title: "Jay PATEL | AI Engineer",
+  description: "F1-inspired developer portfolio. High-performance AI systems and workflows.",
 };
 
 export default function RootLayout({
