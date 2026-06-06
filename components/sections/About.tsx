@@ -164,7 +164,7 @@ export function About() {
                         </div>
                         <div className="text-right">
                             <span className="text-[10px] text-zinc-600 uppercase block mb-1">Availability</span>
-                            <span className="text-papaya font-bold">OPEN TO AI APPRENTICESHIP OPPORTUNITIES</span>
+                            <span className="text-papaya font-bold">OPEN TO OPPORTUNITIES</span>
                         </div>
                     </div>
                 </div>

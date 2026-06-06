@@ -73,12 +73,12 @@ export const RESUME_DATA = {
     }
   ],
   skills: {
-    ai: ["LLMs", "RAG", "LangChain", "LangGraph", "AI Agents", "Prompt Engineering", "Google ADK", "Scikit-learn"],
-    backend: ["Python", "FastAPI", "Flask", "Node.js", "REST APIs", "WebSocket"],
+    ai: ["LLMs", "RAG", "LangChain", "LangGraph", "Prompt Engineering", "Google ADK", "Scikit-learn"],
+    backend: ["Python", "Java","FastAPI", "Flask", "Node.js", "REST APIs", "WebSocket"],
     systems: ["Docker", "Kubernetes", "CI/CD", "Git", "Linux", "Azure", "AWS"],
-    data: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Neo4j", "Pandas", "NumPy"],
-    frontend: ["React.js", "Next.js", "TypeScript", "TailwindCSS"],
-    concepts: ["Multi-agent systems", "Microservices", "Event-driven architecture", "Secure execution", "Distributed systems"],
+    data: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Neo4j"],
+    frontend: ["React.js", "Vue.js", "TypeScript", "TailwindCSS"],
+    concepts: ["System Design", "Multi-agent systems", "Microservices", "Sandboxing", "Event-driven architecture"],
     soft: ["Meticulous", "Adaptable", "Resilient", "Curious", "Creative", "Disciplined", "Fast learner"]
   },
   languages: [
