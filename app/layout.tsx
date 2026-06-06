@@ -14,7 +14,7 @@ import { DRSProvider } from "@/components/providers/DRSContext";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
-  title: "Jay PATEL | AI Engineer",
+  title: "Jay PATEL | Software Engineer",
   description: "F1-inspired developer portfolio. High-performance AI systems and workflows.",
 };
 

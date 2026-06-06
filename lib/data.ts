@@ -5,7 +5,7 @@ export const RESUME_DATA = {
   location: "Paris, France",
   locationLink: "https://www.google.com/maps/place/Paris",
   about: "I’m a third-year Computer Science student at EPITA and Software Engineering & AI Intern at Dassault Systèmes R&D in Paris. My work focuses on backend systems, secure execution workflows, containerized environments, and AI-assisted automation. I’m especially interested in LLM agents, RAG systems, multi-agent workflows, and applying AI to complex industrial software.",
-  summary: "SoftwareAI Engineer focused on LLM agents, backend systems, and production-ready AI workflows. Currently working in R&D at Dassault Systèmes on secure workflow automation, containerized execution, and AI-assisted systems.",
+  summary: "Software Engineer focused on LLM agents, backend systems, and production-ready AI workflows. Currently working in R&D at Dassault Systèmes on secure workflow automation, containerized execution, and AI-assisted systems.",
   avatarUrl: "/assets/me8.jpg",
   personalWebsiteUrl: "https://3d-portfolio-steel-tau.vercel.app/",
   contact: {
