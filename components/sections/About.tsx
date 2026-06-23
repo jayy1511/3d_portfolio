@@ -129,30 +129,30 @@ export function About() {
                         <div className="p-4 rounded border border-white/10 bg-white/5 hover:border-papaya/30 transition-colors flex flex-col justify-between">
                             <div className="flex items-center gap-2 mb-2 text-papaya">
                                 <Code2 className="w-4 h-4" />
-                                <span className="text-xs font-bold uppercase tracking-wider">LLM Agents</span>
+                                <span className="text-xs font-bold uppercase tracking-wider">Backend & APIs</span>
                             </div>
-                            <p className="text-sm text-zinc-400">LangChain, LangGraph, Google ADK, ReAct-style workflows</p>
+                            <p className="text-sm text-zinc-400">FastAPI, REST APIs, WebSockets, Python, PostgreSQL, SQLAlchemy</p>
                         </div>
                         <div className="p-4 rounded border border-white/10 bg-white/5 hover:border-papaya/30 transition-colors flex flex-col justify-between">
                             <div className="flex items-center gap-2 mb-2 text-papaya">
                                 <Database className="w-4 h-4" />
-                                <span className="text-xs font-bold uppercase tracking-wider">Backend AI Systems</span>
+                                <span className="text-xs font-bold uppercase tracking-wider">Cloud & Execution Systems</span>
                             </div>
-                            <p className="text-sm text-zinc-400">FastAPI, REST APIs, WebSocket, Dockerized execution</p>
+                            <p className="text-sm text-zinc-400">Docker, Kubernetes-based workloads, containerized execution, workflow infrastructure</p>
                         </div>
                         <div className="p-4 rounded border border-white/10 bg-white/5 hover:border-papaya/30 transition-colors flex flex-col justify-between">
                             <div className="flex items-center gap-2 mb-2 text-papaya">
                                 <User className="w-4 h-4" />
-                                <span className="text-xs font-bold uppercase tracking-wider">RAG & Data Pipelines</span>
+                                <span className="text-xs font-bold uppercase tracking-wider">Applied AI Systems</span>
                             </div>
-                            <p className="text-sm text-zinc-400">Document processing, embeddings, retrieval, structured outputs</p>
+                            <p className="text-sm text-zinc-400">LLM agents, RAG pipelines, AI-assisted automation, structured outputs</p>
                         </div>
                         <div className="p-4 rounded border border-white/10 bg-white/5 hover:border-papaya/30 transition-colors flex flex-col justify-between">
                             <div className="flex items-center gap-2 mb-2 text-papaya">
                                 <MapPin className="w-4 h-4" />
-                                <span className="text-xs font-bold uppercase tracking-wider">Industrial AI</span>
+                                <span className="text-xs font-bold uppercase tracking-wider">Data & Reliability</span>
                             </div>
-                            <p className="text-sm text-zinc-400">Applying AI to engineering and workflow systems (e.g., Dassault Systèmes)</p>
+                            <p className="text-sm text-zinc-400">PostgreSQL, MongoDB, logs, testing, monitoring, workflow tracking</p>
                         </div>
                     </div>
 
@@ -164,7 +164,7 @@ export function About() {
                         </div>
                         <div className="text-right">
                             <span className="text-[10px] text-zinc-600 uppercase block mb-1">Availability</span>
-                            <span className="text-papaya font-bold">OPEN TO OPPORTUNITIES</span>
+                            <span className="text-papaya font-bold">2026–2029 APPRENTICESHIP TRACK</span>
                         </div>
                     </div>
                 </div>

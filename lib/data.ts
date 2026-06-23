@@ -4,8 +4,8 @@ export const RESUME_DATA = {
   initials: "JP",
   location: "Paris, France",
   locationLink: "https://www.google.com/maps/place/Paris",
-  about: "I’m a third-year Computer Science student at EPITA and Software Engineering & AI Intern at Dassault Systèmes R&D in Paris. My work focuses on backend systems, secure execution workflows, containerized environments, and AI-assisted automation. I’m especially interested in LLM agents, RAG systems, multi-agent workflows, and applying AI to complex industrial software.",
-  summary: "Software Engineer focused on LLM agents, backend systems, and production-ready AI workflows. Currently working in R&D at Dassault Systèmes on secure workflow automation, containerized execution, and AI-assisted systems.",
+  about: "I’m a third-year Computer Science student at EPITA and currently a Software Engineer Intern at Dassault Systèmes Corporate Research in Paris, within the Life Sciences & Healthcare domain. My work focuses on backend infrastructure, secure workflow execution, containerized environments, and the integration of software components in research-oriented systems. I’m especially interested in cloud services, distributed backend systems, applied AI, and building reliable software platforms that can support complex industrial and scientific workflows.",
+  summary: "Computer Science student at EPITA and Software Engineer Intern at Dassault Systèmes, working on backend infrastructure, secure workflow execution, containerized environments, and AI-assisted software systems.",
   avatarUrl: "/assets/me8.jpg",
   personalWebsiteUrl: "https://3d-portfolio-steel-tau.vercel.app/",
   contact: {
@@ -73,12 +73,12 @@ export const RESUME_DATA = {
     }
   ],
   skills: {
-    ai: ["LLMs", "RAG", "LangChain", "LangGraph", "Prompt Engineering", "Google ADK", "Scikit-learn"],
     backend: ["Python", "Java","FastAPI", "Flask", "Node.js", "REST APIs", "WebSocket"],
+    ai: ["LLMs", "RAG", "Machine Learning","Prompt Engineering", "Google ADK", "Scikit-learn"],
     systems: ["Docker", "Kubernetes", "CI/CD", "Git", "Linux", "Azure", "AWS"],
     data: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Neo4j"],
-    frontend: ["React.js", "Vue.js", "TypeScript", "TailwindCSS"],
-    concepts: ["System Design", "Multi-agent systems", "Microservices", "Sandboxing", "Event-driven architecture"],
+    frontend: ["React.js", "TypeScript", "TailwindCSS"],
+    concepts: ["System Design", "Multi-agent systems", "Microservices", "Sandboxing"],
     soft: ["Meticulous", "Adaptable", "Resilient", "Curious", "Creative", "Disciplined", "Fast learner"]
   },
   languages: [
@@ -87,6 +87,18 @@ export const RESUME_DATA = {
     "Hindi - Native"
   ],
   certifications: [
+    {
+      title: "3DEXPERIENCE on the Cloud",
+      link: "https://www.kaggle.com/certification/badges/jay11012005/105",
+      issuer: "Dassault Systemès",
+      year: "2026"
+    },
+    {
+      title: "Cloud Computing For R&D Program",
+      link: "https://www.kaggle.com/certification/badges/jay11012005/105",
+      issuer: "Dassault Systemès",
+      year: "2026"
+    },
     {
       title: "Google AI Agents Intensive",
       link: "https://www.kaggle.com/certification/badges/jay11012005/105",

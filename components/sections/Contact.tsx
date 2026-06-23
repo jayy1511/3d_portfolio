@@ -27,7 +27,7 @@ export function Contact() {
                 </h2>
 
                 <p className="text-xl text-muted-foreground max-w-xl mx-auto mb-12">
-                    AI & Software Engineering Intern at Dassault Systèmes (Research). Open to AI engineering, GenAI, and backend systems opportunities.
+                    Software Engineer Intern at Dassault Systèmes Corporate Research. Open to opportunities in backend engineering, cloud services, platform engineering, and applied AI systems.
                 </p>
 
                 <div className="flex flex-col md:flex-row items-center justify-center gap-6">
